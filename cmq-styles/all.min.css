@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	vertical-align: baseline;
+}
+
+*,
+body {
+	margin: 0;
+}
+
+body {
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 68.8%;
+	height: 100%;
+	color: #000;
+	background: #fff;
+}
+
+input {
+	height: auto;
+}
+
+a img,
+fieldset,
+form {
+	border: 0;
+}
+
+abbr,
+acronym,
+ins {
+	text-decoration: none;
+	border: 0;
+	font-style: normal;
+}
+
+a:hover abbr,
+a:hover acronym,
+a:hover ins {
+	text-decoration: underline;
+}
+
+address {
+	font-style: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+q:after,
+q:before {
+	content: "";
+}
+
+small {
+	font-size: .9em;
+}
+
+button,
+input,
+select,
+textarea {
+	font: 1em Arial,Verdana,Helvetica,sans-serif;
+}
+
+input,
+select,
+textarea {
+	box-sizing: border-box;
+}
+
+textarea {
+	overflow: auto;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+.accessibility,
+hr {
+	position: absolute;
+	left: -9999em;
+}
+
+button {
+	width: auto;
+	overflow: visible;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input.submit {
+	width: auto!important;
+	height: auto!important;
+	cursor: pointer!important;
+	border: 0!important;
+	overflow: visible;
+}
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+
+a {
+	color: #666;
+	cursor: pointer;
+}
+
+#access-keys {
+	position: absolute;
+	top: -500px;
+	left: 0;
+}
+
+#access-keys a:focus {
+	position: absolute;
+	top: 505px;
+	left: 450px;
+	z-index: 1;
+	color: #000;
+	width: 250px;
+	font-size: 1.7em;
+	background: #fff;
+	padding: 5px;
+}
+
+@media (max-width:500px) {
+
+body {
+	color: red;
+}
+
+a {
+	color: gold;
+}
+
+}
+
